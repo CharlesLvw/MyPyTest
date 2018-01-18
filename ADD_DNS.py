@@ -25,7 +25,7 @@ def get_ip():#h获取IP地址并执行ping
     else:
         os.system("echo -e %s'\t'%s'\t' %s " %(HostDir['Host'][count],HostDir['Type'][count],HostDir['IP'][count] + ">> False.log" ))
 
-def Test():
+def Test(): #开始增加
     count = 0
     file = r'C:\Users\17763\Desktop\dns.txt'
     LocalFile = open(file)
